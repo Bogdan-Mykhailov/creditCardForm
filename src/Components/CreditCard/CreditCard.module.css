@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  margin: 20px 0 40px 0;
+  height: 30px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: palevioletred;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid lightgray;
+  border-radius: .25rem;
+  transition: border-color .15s;
+}

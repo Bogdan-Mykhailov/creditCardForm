@@ -1,0 +1,396 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.addForm h2 {
+  margin-right: 84px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 64px;
+  color: rgb(59, 62, 93);
+  font-family: Geometria;
+  font-weight: 900;
+  margin: 0 0 11px 0;
+}
+
+.container {
+  width: 1140px;
+  padding: 39px 60px 60px 140px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px 0;
+}
+
+.titleBtn {
+  display: flex;
+  justify-content: center;
+  margin: 0 45px 50px 0;
+}
+
+.formButtonL {
+  width: 115px;
+  height: 40px;
+  border-radius: 5px 0 0 5px;
+  background-color: rgb(59, 62, 93);
+  border: 2px solid rgb(59, 62, 93);
+  font-family: Geometria;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(244, 247, 250);
+}
+
+.formButtonR:hover {
+  background-color: rgb(59, 62, 93);
+  border: none;
+  color: rgb(244, 247, 250);
+}
+
+.logoDiv {
+  margin: 115px 190px 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(59, 62, 93);
+}
+
+a:hover {
+  color: #18185b;
+  font-weight: 500;
+}
+
+.formButtonR {
+  width: 115px;
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  background-color: transparent;
+  border-color: rgb(59, 62, 93);
+  font-family: Geometria;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.inputGroup h4 {
+  font-size: 14px;
+  color: rgb(171, 174, 181);
+  font-family: Geometria;
+  font-weight: 600;
+}
+
+.inputGroup input {
+  border-color: transparent;
+  background-color: rgb(244, 247, 250);
+  border-radius: 5px;
+  width: 415px;
+  height: 37px;
+  margin-bottom: 32px;
+}
+
+.leftGroup {
+  flex-direction: column;
+  display: flex;
+  width: 415px;
+}
+
+.rightGroup input {
+  flex-direction: column;
+  display: flex;
+  width: 415px;
+}
+
+.halfInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.halfInputR {
+  display: flex;
+  justify-content: space-between;
+}
+
+.halfInputR input {
+  width: 195px;
+  margin-bottom: 30px;
+}
+
+.halfInput input {
+  width: 195px;
+  margin-bottom: 30px;
+}
+
+.typeTitle {
+  margin-bottom: 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: Geometria;
+  margin-bottom: 40px;
+  color: rgb(59, 62, 93);
+}
+
+.typeOfHelpGroup {
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.typesButtonWrapper {
+  display: inline-flex;
+  width: 230px;
+}
+
+.typesButtonWrapper:hover span {
+  color: rgb(59, 62, 93);
+}
+
+.typesButtonWrapper:hover .typesButton {
+  background-color: rgb(137, 70, 137);
+  border: none;
+}
+
+.customHoverFocus {
+  color: #c63956;
+}
+
+.typesButton {
+  height: 80px;
+  width: 80px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid rgb(185, 203, 223);
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.textActive {
+  margin-top: 20px;
+  color: rgb(59, 62, 93);
+}
+
+
+span {
+  font-family: Geometria;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 20px;
+  width: 50px;
+  margin-top: 27px;
+  color: rgb(185, 203, 223);
+}
+
+.paymentMethod {
+  padding: 20px 20px 0 20px;
+  display: flex;
+  border: 2px solid rgb(185, 203, 223);
+  margin-bottom: 50px;
+  border-radius: 15px;
+  position: relative;
+  background: #ffffff;
+}
+
+.paymentMethod:after, .paymentMethod:before {
+  bottom: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.paymentMethod:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+  border-width: 18px;
+  left: 30.5%;
+  margin-left: -18px;
+}
+
+.paymentMethod:before {
+  border-color: rgba(125, 145, 133, 0);
+  border-bottom-color: rgb(185, 203, 223);
+  border-width: 21px;
+  left: 30.5%;
+  margin-left: -21px;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardItem {
+  margin: 0 15px 20px 0;
+  width: 170px;
+  height: 85px;
+  background: rgb(185, 203, 223);
+  border: none;
+  border-radius: 10px;
+  display: block;
+  align-items: end;
+  justify-content: center;
+  padding: 8px;
+  font-family: Geometria;
+  font-size: 11px;
+  color: rgb(244, 247, 250);
+}
+
+.active {
+  background-color: rgb(137, 70, 137);
+  border: none;
+}
+
+.activeText {
+  color: rgb(59, 62, 93)
+}
+
+.cardItem:hover {
+  background-color: rgb(137, 70, 137);
+
+}
+
+.cardsIcons {
+  display: flex;
+  height: 35px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cardIconTitle {
+  margin: 15px;
+  font-family: Geometria;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.cardIcon {
+  width: 45px;
+}
+
+
+.helpButton {
+  background: linear-gradient(45deg, #c63956 40%, #816aaa 90%)
+}
+
+.card {
+  display: inline-block;
+}
+
+.cards h4 {
+  color: rgb(185, 203, 223);
+  font-family: Geometria;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card h4 {
+  color: rgb(185, 203, 223);
+  font-family: Geometria;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cardBody {
+  background: rgb(185, 203, 223);
+  width: 335px;
+  height: 150px;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.cardBody input {
+  height: 25px;
+  border-color: transparent;
+  background-color: rgb(244, 247, 250);
+  border-radius: 5px;
+  margin: 0 5px;
+  width: 250px;
+}
+
+.halfCardInput {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.halfCardInput h4 {
+  font-family: Geometria;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cardNumber {
+  display: flex;
+  justify-content: center;
+}
+
+.cardBody h4 {
+  font-family: Geometria;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(244, 247, 250);
+}
+
+.cardNumber input {
+  width: 69px;
+  text-align: center;
+  /*margin-bottom: 10px;*/
+  height: 35px;
+  margin-top: -2px;
+}
+
+.halfCardInput input {
+  width: 125px;
+  height: 35px;
+}
+
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.helpButton {
+  margin-right: 80px;
+  display: flex;
+  height: 60px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(244, 247, 250);
+  font-family: Geometria;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  box-shadow: rgb(198, 57, 86) 0 0 10px 0;
+}
+
+.helpButton:hover {
+  box-shadow: rgb(198, 57, 86) 0 0 40px 0;
+  font-weight: 900;
+}
